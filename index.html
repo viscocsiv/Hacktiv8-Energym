@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.84.0" />
+    <script
+      src="https://kit.fontawesome.com/88b2a75630.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Energym</title>
+    <link rel="icon" href="img/logo.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.0/examples/carousel/"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="CSS/carousel.css" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/navbar-ardi.css" />
+    <link rel="stylesheet" href="CSS/login-ardi.css" />
+    <link rel="stylesheet" href="CSS/register-ardi.css" />
+  </head>
+
+  <body class="bg-color bg-item" style="padding: 0; margin: 0">
+    <!-- NAVBAR -->
+    <div class="navbar-wrapper" id="navbar-from-js"></div>
+    <div id="glass-login-register"></div>
+    <div class="login-container" id="pop-up-login"></div>
+    <div class="register-container" id="pop-up-register"></div>
+
+    <!-- NAVBAR END HERE -->
+    <main>
+      <div
+        id="myCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        style="top: 75px"
+        
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner" style="height: 90vh;">
+          <div class="carousel-item active">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="#777" /></svg><img src="img/slide-1.png" />
+
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h2>get more out of your</h2>
+                <h1><b>Fitness Journey</b></h1>
+                <p>Join the community to track your progress.</p>
+                <p>
+                  <a class="btn btn-lg btn-success" id="carousel-signup"
+                    >Sign up today</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="#777" /></svg><img src="img/slide-2.png" />
+
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>
+                  inspiring you for<br />
+                  <b>NEW LOOK</b><br />
+                  everyday
+                </h1>
+                <p style="text-align: justify;">
+                  Being physically active can improve your brain health, help
+                  manage weight, reduce the risk of disease, strengthen bones
+                  and muscles, and improve your ability to do everyday
+                  activities.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-success" href="membership-wisnu.html">Get membership</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="#777" /></svg><img src="img/slide-3.jpg" />
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Work hard, play hard, live well</h1>
+                <p style="text-align: justify;">
+                  Also applied in the context of sports and physical fitness.
+                  "Work hard" reflects the commitment to regular training,
+                  engaging in rigorous workouts, and planning fitness programs
+                  with a focus on achieving excellent results in sports. "Play
+                  hard" portrays the importance of participating in games or
+                  enjoyable physical activities to maintain enthusiasm and
+                  motivation in sports. Lastly, "Live well" represents the
+                  health and well-being benefits derived from an active and
+                  healthy lifestyle, as well as the sense of well-being that
+                  sports provided. Thus, through this approach, one can achieve
+                  a good balance between dedication to sports, enjoyment, and
+                  overall health in your life.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-success" href="#content-section">Explore Content</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- START THE FEATURETTES -->
+      <!-- FEATURE ABOUT US -->
+      <div class="bg-item-1">
+        <div class="container-about-us" id="about-us-section">
+          <h1 class="margin-bot"><b>ABOUT US</b></h1>
+          <p style="text-align: justify;">
+            We are a modern fitness center committed to helping you achieve a healthy and active lifestyle. With state-of-the-art facilities and experienced instructors, we are ready to guide you on your fitness journey.<br>
+
+            <br>Our vision is to provide a friendly and motivating environment for all our members, from beginners to experienced athletes. We believe that fitness is not just about physical appearance but also about overall well-being. Therefore, we offer a variety of workout programs that can be tailored to your needs and goals.<br>
+
+            <br>Our facilities include cutting-edge equipment, cardio areas, class studios, and weightlifting spaces. Our dedicated team of instructors will help you plan a workout program that suits your goals and provide guidance and support to ensure your success.<br>
+
+            <br>We take pride in being a part of a health-conscious fitness community and are committed to continuing to be a reliable place on your fitness journey. Join us today and start your journey toward a healthier and happier life!<br>
+          </p>
+        </div>
+      </div>
+      <div class="container marketing" class="bg-item">
+        <!-- Testimony all customer
+  ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <!-- Three columns of text below the carousel -->
+        <hr class="featurette-divider" />
+
+        <div class="row container-pt" id="testimony-section">
+          <h1 class="text-center margin-top margin-bot">OUR TESTIMONY</h1>
+          <br />
+          <div class="col-lg-4">
+            <img
+              src="img/profile1.webp"
+              alt="Profile"
+              class="bd-placeholder-img rounded-circle"
+              style="height: 140px; width: 140px; border-radius: 50%"
+            />
+            <h2 class="margin-top">
+              Name:
+              <p class="text-bg-trainer">Larry</p>
+            </h2>
+            <p style="text-align: justify;">
+              I've been a member at this gym for over a year now, and I couldn't
+              be happier with the results. The trainers are incredibly
+              knowledgeable and motivating, the equipment is top-notch, and the
+              atmosphere is always positive. I've seen significant improvements
+              in my fitness level, and I owe it all to this amazing gym.
+            </p>
+            <!-- <p><a class="btn btn-secondary" href="#">Book Trainer &raquo;</a></p> -->
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img
+              src="img/profile2.png"
+              alt="Profile"
+              class="bd-placeholder-img rounded-circle"
+              style="height: 140px; width: 140px; border-radius: 50%"
+            />
+            <h2 class="margin-top">
+              Name:
+              <p class="text-bg-trainer">Dora</p>
+            </h2>
+            <p style="text-align: justify;">
+              I was skeptical about joining a gym at first, but this one
+              exceeded all my expectations. The clean and spacious facilities,
+              along with the friendly and knowledgeable trainers, made me feel
+              right at home. What truly stands out is the sense of camaraderie
+              among the members. It's not just a place to work out; it's a place
+              where you feel encouraged and inspired to achieve your fitness
+              goals. I'm so glad I made the decision to join
+            </p>
+            <!-- <p><a class="btn btn-secondary" href="#">Book Trainer &raquo;</a></p> -->
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img
+              src="img/profile3.png"
+              alt="Profile"
+              class="bd-placeholder-img rounded-circle"
+              style="height: 140px; width: 140px; border-radius: 50%"
+            />
+            <h2 class="margin-top">
+              Name:
+              <p class="text-bg-trainer">Goku</p>
+            </h2>
+            <p style="text-align: justify;">
+              I joined this gym a few months ago, and it's been a game-changer
+              for me. The variety of classes they offer is fantastic, and the
+              instructors are so supportive. I've not only lost weight but
+              gained so much confidence. It's more than just a gym; it's become
+              a community for me
+            </p>
+            <!-- <p><a class="btn btn-secondary" href="#">Book Trainer &raquo;</a></p> -->
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+
+        <!-- /.container -->
+        <div class="row featurette" id = "content-section">
+          <hr class="featurette-divider" />
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Energym
+              <span class="text-muted">Room</span>
+            </h2>
+            <p class="lead">Importance of a perfect fitness goals</p>
+            <p style="text-align: justify;">
+              Fitness goals are the best motivation to maintain the exercise
+              routine to follow. Here are some reasons why fitness goals are
+              important. You must keep track of your progress. Keeping a fitness
+              goal is vital to check how much you need to exercise. Everybody
+              loves having a healthy body. You need to motivate yourself, which
+              can happen if you have a fitness goal. Once you have defined the
+              fitness goal, look for a Fitness Gym In town with trained
+              professionals. This way, you can have an extensive approach to
+              various exercise routines. A fitness goal will set a clear path to
+              reaching realistic goals. We all wish for instant gratification,
+              but it is better to accept the changes as you progress. Exercising
+              online with a fitness coach means you are accountable for your
+              outcome. It will make you responsible for your eating habits as
+              well.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="img/artikel-1.jpeg"
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              style="height: 500px; width: 500px"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">
+              MAKE A PERFECT FITNESS GOAL WITH
+              <span class="text-muted">ONLINE FITNESS COACH.</span>
+            </h2>
+            <p class="lead" style="text-align: justify;">
+              It is a known fact that people start their new year with fitness
+              goals in mind. One goal at a time. The first step in creating a
+              perfect goal is to think and concentrate on one specific goal at a
+              time. Perhaps a fitness goal that seems easy becomes difficult
+              while working out, so it is essential to have some flexibility
+              along your fitness journey. A fitness goal will set a clear path
+              to reaching realistic goals. It will make you responsible for your
+              eating habits as well. Struggling to meet a goal is ok, but make
+              sure to go for the best Online Fitness Training that gives
+              results. .
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              src="img/artikel-2.jpg"
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              style="height: 500px; width: 500px"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Cardiovascular disease
+              <span class="text-muted">offering free blood pressure.</span>
+            </h2>
+            <p class="lead" style="text-align: justify;">
+              A pilot health initiative which aims to tackle cardiovascular
+              disease through offering free blood pressure checks has launched
+              in Manchester. Unnoticed high blood pressure puts millions at
+              heart attack and stroke risk More than 5.5 million people in
+              England1 may currently be suffering from high blood pressure
+              (hypertension) without any symptoms and, if left untreated, this
+              can increase the risk of heart attack or stroke.
+            </p>
+
+            <p style="text-align: justify;">
+              Those who fall into the amber range are offered a referral to a
+              Care Navigator who will support them with signposting to lifestyle
+              interventions, connecting the individual with the best available
+              intervention to help support their health needs to help reduce
+              their blood pressure reading.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="img/artikel-3.jpg"
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              style="height: 500px; width: auto"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+        <!-- /END THE FEATURETTES -->
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <h1 class="footer footer-text-title margin-bot" style="font-size: 50px">
+          CONTACT US
+        </h1>
+        <div id="square-contact-us">
+          <div>
+            <div class="text-contact-us margin-top">
+              <i class="fa-solid fa-phone"></i> <span>+0123 4567 8910</span>
+            </div>
+            <div class="text-contact-us">
+              <i class="fa-solid fa-globe"></i> <span>www.energym.com</span>
+            </div>
+            <div class="text-contact-us">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <span>users/www.energym.com</span>
+            </div>
+            <div class="text-contact-us">
+              <i class="fa-solid fa-thumbs-up"></i> <span>@energym.co</span>
+            </div>
+          </div>
+        </div>
+        <div class="margin-top">
+          <p class="float-end"><a href="#">Back to top</a></p>
+          <p style="margin-left: 40%">
+            &copy; <b>Energym</b> 2023. All rights reserved &middot;
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <!-- script navbar -->
+    <script src="JS/navbar-ardi.js"></script>
+    <!--  -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

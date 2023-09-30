@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energym</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="CSS/profile-page.css">
+    <link rel="stylesheet" href="CSS/navbar-ardi.css">
+    <link rel="stylesheet" href="CSS/login-ardi.css">
+    <link rel="stylesheet" href="CSS/register-ardi.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar-wrapper" id="navbar-from-js"></div>
+    <div id="glass-login-register"></div>
+    <div class="login-container" id="pop-up-login"></div>
+    <div class="register-container" id="pop-up-register"> </div>
+    <div class="login-container" id="pop-up-email"></div>
+    <div class="login-container" id="pop-up-password"> </div>
+    <!-- NAVBAR END HERE -->
+
+    <div id="profile-container">
+        <div id="profile-title">
+            <h1>My Profile</h1>
+        </div>
+        <div id="user-profile">
+            <div class="data-container">
+                <div class="content">Email:</div>
+                <div class="container-edit-content">
+                    <div class="edit-content" id="display-profile-email">
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn" id="btn-profile-email">Edit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="data-container">
+                <div class="content">Password:</div>
+                <div class="container-edit-content">
+                    <div class="edit-content">
+                        *******************
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn" id="btn-profile-password">Edit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="data-container">
+                <div class="content">Membership:</div>
+                <div class = "container-edit-content">
+                    <div class="edit-content" id="display-profile-membership">
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn" id="btn-profile-membership">Edit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/navbar-ardi.js"></script>
+    <script src="JS/profile-page.js"></script>
+</body>
+</html>
